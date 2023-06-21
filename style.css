@@ -1,0 +1,38 @@
+/* 
+    Theme Name: Wp-theme
+    Theme URL: www.jaytechz.netlify.app
+    Author: Okeke Festus
+    Description: this is my basic wordpress theme
+    Tags: jaytech_template, wordpress_theme, jaytech
+    Licence: GNU General Public License
+    Version: 1.0
+
+*/
+
+body{
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+
+.header-area{
+    background: lightblue;
+    color: black;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    width: 60%;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 60%;
+    margin-inline: auto;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
